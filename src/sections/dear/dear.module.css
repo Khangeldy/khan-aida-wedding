@@ -1,0 +1,22 @@
+.dear {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url('/invite-top.png'), url('/invite-bottom.png');
+    background-position: top left, bottom right;
+    background-size: 250px 250px, 250px 250px;
+    background-repeat: no-repeat;
+}
+
+.center {
+    font-family: "Forum";
+    font-size: 36px;
+}
+
+.text {
+    font-size: 1.4rem;
+    letter-spacing: 0.35rem;
+    max-width: 600px;
+}

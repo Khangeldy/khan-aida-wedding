@@ -1,0 +1,16 @@
+.oral {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.bw {
+    max-width: 100%;
+}

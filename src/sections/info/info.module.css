@@ -1,0 +1,35 @@
+.info {
+    height: 100vh;
+    background-image: url('/frame.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.owners {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.date {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.dateItem {
+    padding: 0 10px;
+    font-size: 28px;
+    font-family: 'Forum';
+}
+
+.dateItem:not(:last-child) {
+    border-right: 1px solid #000; 
+} 
+
+.address {
+    max-width: 400px;
+}

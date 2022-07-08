@@ -1,0 +1,29 @@
+.nomad {
+    height: 100vh;
+    background-image: url('/1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.bottom {
+    width: 100%;
+    font-size: 36px;
+    margin-top: 1rem;
+}
+
+.plane {
+    width: 100%;
+}
+
+.distance {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.city {
+    margin-top: 0;
+}
